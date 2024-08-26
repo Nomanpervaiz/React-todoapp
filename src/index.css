@@ -1,0 +1,99 @@
+body{
+    margin: 0%;
+}
+.latoutPage{
+    height: 100vh;
+}
+
+.contentStyle h1{
+    text-align: center;
+    border-radius: 10px ;
+    font-size: 3.3rem ;
+    color: rgb(55, 0, 255);
+    padding: 20px 0px ;
+
+}
+
+
+.addButton{
+    padding: 20px !important ;
+    margin-left: 5px;
+}
+
+.deleteBtn{
+    padding: 10px !important ;
+    background-color: transparent;
+}
+
+.EditBtn{
+    padding: 10px !important ;
+    background-color: transparent;
+}
+
+.iconDelete , .iconEdit{
+    font-size: 1.2rem;
+}
+
+.inputAdd{
+    display: flex;
+    width: 80% ;
+    margin: auto;
+}
+.inputStyle{
+    padding: 10px ;
+}
+
+
+.listMain{
+       width: 80% ;
+    margin: auto;
+    height: 240px  ;
+    overflow-y: scroll;
+}
+.listMain li{
+    margin-left: -40px ;
+    border: 1px solid rgb(243, 243, 243) ;
+    list-style: none;
+    padding: 8px ;
+    margin-top: 4px;
+    border-radius: 10px ;
+    background-color: rgb(68, 143, 255);
+    color: rgb(255, 255, 255);
+    display: flex;
+}
+.listMain li input{
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    width: 100%;
+    outline: none;
+    
+}
+
+/* *  STYLE 3 */
+
+#style-3::-webkit-scrollbar-track
+{ 
+   -webkit-box-shadow: inset 0 0 6px transparent;
+   background-color: transparent;
+}
+
+#style-3::-webkit-scrollbar
+{
+   width: 6px;
+   background-color: #ffffff;
+ 
+}
+
+#style-3::-webkit-scrollbar-thumb
+{
+   
+ background-color: #0051ff;
+}
+
+h1{
+margin-top: 0px ;
+}
+
