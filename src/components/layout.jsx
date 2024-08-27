@@ -6,7 +6,6 @@ const items = new Array(15).fill(null).map((_, index) => ({
   label: `nav ${index + 1}`,
 }));
 const PageLayout = ({children}) => {
-
   const {
     token: { colorBgContainer, borderRadiusLG },
   } = theme.useToken();
